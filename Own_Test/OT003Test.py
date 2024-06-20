@@ -21,6 +21,7 @@ def usage():
         pass
 
 main()
+print("I Love Akari")
 
 
 """
