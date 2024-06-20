@@ -1,17 +1,43 @@
-"""
+#To check version
 git --version
+
+#To config the user name and email
 git config --global user.name NAME
 git config --global user.email MAIL
+
+#To download a remote repository into your local machine
 git clone
-git add file
-git commit
+
+#To focus on a particular file
+git add FILE
+
+#To commit a file into your local machine
+git commit -m "MESSAGE"
+
+#To push your commited changes to your remote repository
 git push
+
+#To set your html url to ssh url
 git remote set-url origin git@github.com:<Username>/<Project>.git
+
+#To pull latest changes from the remote repository
 git pull
+
+#To check the status of your repository
 git status
+
+#To check the log of your repository
 git log
+
+#To reset it to some point of the branch
 git reset --hard COMMIT_HASH
+
+#To reset the local repository to match with remote repository
 git reset --hard origin/Main
 
+#To check the branch you are currently working on
+git branch
 
-"""
+#To create a new branch
+git checkout -b NAME_OF_NEW_BRANCH
+
