@@ -21,7 +21,7 @@ def usage():
         pass
 
 main()
-print("I Love Akari")
+print("I Love Akari"*3)
 
 
 """
