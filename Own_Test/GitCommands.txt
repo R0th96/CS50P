@@ -1,0 +1,17 @@
+"""
+git --version
+git config --global user.name NAME
+git config --global user.email MAIL
+git clone
+git add file
+git commit
+git push
+git remote set-url origin git@github.com:<Username>/<Project>.git
+git pull
+git status
+git log
+git reset --hard COMMIT_HASH
+git reset --hard origin/Main
+
+
+"""
