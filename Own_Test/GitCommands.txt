@@ -56,3 +56,10 @@ e.g. after you have fixed the bug for bootstrap repository in your git hub accou
 #GitHub pages or free websites
 create a new repository with the following name
 username.github.io
+
+
+#git branch -m main Extra
+#git fetch origin
+#git branch -u origin/Extra Extra
+#git remote set-head origin -a
+
